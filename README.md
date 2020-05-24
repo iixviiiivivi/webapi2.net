@@ -11,3 +11,6 @@ C# / .Net / .NetFramework / Web API / Web API2
 * Implementing action and exception filters at action and global scope
 1. Registering filters in WebApiConfig.cs
 * Remove XmlFormatter in WebApiConfig.cs to return only json formatted data to client
+* Implementing cors setting
+1. install web api cors package
+2. if entity framework version is not compatible, downgrade entity framework before installing cors pacakge
