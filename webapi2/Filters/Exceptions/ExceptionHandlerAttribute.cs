@@ -16,7 +16,7 @@ namespace webapi2.Filters
             {
                 string actionName = actionExecutedContext.ActionContext.ActionDescriptor.ActionName;
                 HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.InternalServerError);
-                response.Content = new StringContent($"Exception Caugth: {actionExecutedContext.Exception.Message}");
+                response.Content = new StringContent($"Exception Caugth:{actionName} - {actionExecutedContext.Exception.Message}");
                 actionExecutedContext.Response = response;
             }
         }

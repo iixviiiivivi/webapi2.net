@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using webapi2.Daos.Member;
 using webapi2.Filters;
 using webapi2.Filters.Actions;
@@ -12,11 +13,11 @@ using webapi2.Models;
 
 namespace webapi2.Controllers
 {
+    [EnableCors(origins: "http://domain_of_the_site_that_requests_this_web_api", headers: "*", methods: "*")]
     [RoutePrefix("api/member")]
     public class MemberController : ApiController
     {
         private static readonly MemberDao memberDao = new MemberDao();
-
         [HttpGet]
         [Route("")]
         public IHttpActionResult FindMembers()

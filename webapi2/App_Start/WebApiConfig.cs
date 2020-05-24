@@ -10,7 +10,7 @@ namespace webapi2
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
-        {
+        {  
             // Web API 設定和服務
 
             // Web API 路由
@@ -28,6 +28,8 @@ namespace webapi2
             config.Filters.Add(new ExceptionHandlerAttribute());
             // Action Filter Setting
             config.Filters.Add(new ActionInfoAttribute());
+            // Enable Cors
+            config.EnableCors();
         }
     }
 }

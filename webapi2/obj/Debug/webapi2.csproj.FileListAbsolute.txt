@@ -85,3 +85,8 @@ C:\code_sideprojects\dotnet\webapi2\webapi2\obj\Debug\webapi2.csproj.CoreCompile
 C:\code_sideprojects\dotnet\webapi2\webapi2\obj\Debug\webapi2.csproj.CopyComplete
 C:\code_sideprojects\dotnet\webapi2\webapi2\obj\Debug\webapi2.dll
 C:\code_sideprojects\dotnet\webapi2\webapi2\obj\Debug\webapi2.pdb
+C:\code_sideprojects\dotnet\webapi2\webapi2\bin\System.Web.Cors.dll
+C:\code_sideprojects\dotnet\webapi2\webapi2\bin\System.Web.Http.Cors.dll
+C:\code_sideprojects\dotnet\webapi2\webapi2\bin\System.Web.Http.Cors.xml
+C:\code_sideprojects\dotnet\webapi2\webapi2\bin\zh-Hant\EntityFramework.resources.dll
+C:\code_sideprojects\dotnet\webapi2\webapi2\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
